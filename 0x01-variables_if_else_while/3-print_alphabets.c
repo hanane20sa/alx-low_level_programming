@@ -8,16 +8,16 @@
  */
 int main(void)
 {
-	if char ch = 'a';
-	{
+	char ch = 'a';
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
-	}
-	if char = 'A';
-	{
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
-	}
+
+	char upper = 'A';
+
+	for (upper = 'A'; upper <= 'Z'; upper++)
+		putchar(upper);
+
 	putchar ('\n');
 
 	return (0);
