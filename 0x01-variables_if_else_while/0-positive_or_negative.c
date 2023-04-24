@@ -6,6 +6,7 @@
  *Description: 'check numbers if it's positive or negative'
  *Return: alwys 0 (success)
 */
+
 int main(void)
 {
 	int n;
@@ -25,5 +26,6 @@ int main(void)
 	{
 	printf("%d is negative\n", n);
 	}
+
 return (0);
 }
