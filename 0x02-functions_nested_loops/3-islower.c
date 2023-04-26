@@ -3,6 +3,7 @@
 /**
  * _islower - A function that checks for lowercase
  * @c: int c
+ * Description: 'checks for lowercase'
  * Returrn: 1 for lowercase or 0 for anything else
  */
 
