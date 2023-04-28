@@ -3,22 +3,24 @@
 
 /**
  * print_line - A function that draws a straight line.
- * Description: 'Draw a straight line in terminal'.
- *@n: the number of time
+ * @n: the number of time
+ * Return: empty
  */
 
 void print_line(int n)
 
 {
+	int y;
+
 	if (n <= 0)
 	{
 	_putchar('\n');
 	}
 	else
 	{
-	for (int i = 0; i < n; i++)
+	for (y = 0; y < n; y++)
 	{
-	_putchar('_');
+	_putchar(95);
 	}
 	_putchar('\n');
 	}
