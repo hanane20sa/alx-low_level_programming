@@ -13,7 +13,7 @@ char *rot13(char *s)
 	int l;
 	int j;
 	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwyz";
-	char datarot[] = "NOPQRSTUVWXTZABCDEFGHIJKLMnopqrstuvwyzabcdefghijklm";
+	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwyzabcdefghijklm";
 
 	for (l = 0; s[l] != '\0'; l++)
 	{
