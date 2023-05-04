@@ -6,6 +6,7 @@
  */
 
 int main(void)
+
 {
 	int n;
 	int a[5];
